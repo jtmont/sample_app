@@ -49,3 +49,6 @@ group :development, :test do
   gem 'guard-minitest',     '2.3.1'
 end
 
+group :production do
+  gem 'puma'
+end
